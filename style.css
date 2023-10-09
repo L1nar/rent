@@ -21,7 +21,7 @@ ul>li {
 }
 
 .rent {
-    background-color: black;
+    background: radial-gradient(#421ccc, #ecd774);
     color: white;
     height: 100%;
     font-family: Arial, sans-serif;
@@ -61,6 +61,7 @@ h1 {
 
 .rent-terms__item {
     text-align: center;
+    width: 120px;
 }
 
 .rent-terms__img {
@@ -86,7 +87,7 @@ h1 {
     width: 50%;
 }
 
-@media (max-width: 401px) {
+@media (max-width: 669px) {
     .rent__img {
         display: none;
     }
