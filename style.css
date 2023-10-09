@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.rent {
+    background-color: black;
+    color: white;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+.title {
+    color: yellow;
+    margin-bottom: 50px;
+}
+
+.title span {
+    color: white;
+}
+
+.rent-terms {
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.rent-terms__item {
+    text-align: center;
+}
+
+.rent-terms__img {
+    margin-bottom: 20px;
+    height: 50%;
+}
+
+.btn {
+    border: 2px solid #ffd500;
+    background-color: #ecd774;
+    border-radius: 5px;
+    padding: 10px 8px;
+    box-shadow: 0 0 3px 2px #ffc800;
+    transition: all 0.3s;
+    margin-bottom: 30px;
+}
+
+.btn:hover {
+    background-color: #ffe048;
+}
+
+.rent__img {
+    width: 50%;
+}
+
+@media (max-width: 401px) {
+    .rent__img {
+        display: none;
+    }
+
+    .rent {
+        background-color: brown;
+    }
+}
+
+@media (min-width: 1024px) {
+    .rent {
+        background-color: rgb(60, 51, 116);
+    }
+
+    .rent__img {
+        width: 800px;
+    }
+}
